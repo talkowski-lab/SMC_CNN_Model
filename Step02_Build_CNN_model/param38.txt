@@ -1,0 +1,12 @@
+coef_l1	0.6
+conv_filters	50
+conv_filters	50
+conv_filter_sizes	5
+conv_filter_sizes	2
+pool_width	2
+pool_width	2
+hidden_units	500
+hidden_dropouts	0.9
+learning_rate	0.002
+weight_norm	3
+momentum	0.98
