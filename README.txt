@@ -134,7 +134,7 @@ The following aims are achieved in this step:
    We considered motifs with average contribution no less than 0.01 as "real" motifs for the treatment, which ended up 39 out of 50 motifs.
 
  5. Influence of each position for treatment response
-  python basset_motif_convolution_dadi.py -s 131 -i\
+  python basset_motif_convolution_dadi.py \
    -o $MY_FOLDER/Output_data/3C_positional_weight_param38\
    $MY_FOLDER/Output_data/3C_cnn_param38_best.th\
    $MY_FOLDER/Output_data/3C_learn.h5
