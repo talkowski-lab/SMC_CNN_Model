@@ -38,6 +38,7 @@ weblogo_opts += ' -C "#0C8040" T T'
 def main():
     usage = 'usage: %prog [options] <model_file> <test_hdf5_file>'
     parser = OptionParser(usage)
+    parser.add_option('-a', dest='act_t', default=0.5, type='float', help='Activation threshold (as proportion of max) to consider for PWM [Default: %default]')
     parser.add_option('-d', dest='model_hdf5_file', default=None, help='Pre-computed model output as HDF5.')
     parser.add_option('-o', dest='out_dir', default='.')
     parser.add_option('-m', dest='meme_db', default='%s/data/motifs/Homo_sapiens.meme' % os.environ['BASSETDIR'], help='MEME database used to annotate motifs')
